@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shree Bhavani Convent</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to Shree Bhavani Convent</h1>
+  </header>
+
+  <section class="info">
+    <h2>About Our School</h2>
+    <p><strong>Name:</strong> Shree Bhavani Convent</p>
+    <p><strong>Location:</strong> Doddankanahalli, Karnataka 571415</p>
+    <p><strong>Phone:</strong> 099011 48486</p>
+    <p><strong>Rating:</strong> 5.0 (based on 2 reviews)</p>
+    <p><strong>Type:</strong> School</p>
+  </section>
+
+  <section class="hours">
+    <h2>School Hours</h2>
+    <ul>
+      <li><strong>Monday - Friday:</strong> 9:30 AM – 4:00 PM</li>
+      <li><strong>Saturday:</strong> 8:30 AM – 12:30 PM</li>
+      <li><strong>Sunday:</strong> Closed</li>
+    </ul>
+  </section>
+
+  <section class="map">
+    <h2>Location</h2>
+    <iframe
+      src="https://maps.google.com/maps?q=8PQX%2B73%20Doddankanahalli,%20Karnataka&t=&z=13&ie=UTF8&iwloc=&output=embed"
+      width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Shree Bhavani Convent, Chikkankanahalli</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
