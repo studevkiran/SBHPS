@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shree Bhavani Higher Primary School</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      text-align: center;
+      background-color: #1a5276;
+      padding: 20px;
+      color: white;
+    }
+    
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    
+    .school-image {
+      width: 100%;
+      height: auto;
+    }
+    
+    nav .menu {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #2c3e50;
+    }
+    
+    nav .menu li {
+      margin: 0 15px;
+    }
+    
+    nav .menu li a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      padding: 10px 20px;
+    }
+    
+    nav .menu li a:hover {
+      background-color: #2980b9;
+      border-radius: 5px;
+    }
+    
+    .section {
+      margin: 20px;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2 {
+      color: #2980b9;
+      font-size: 24px;
+    }
+    
+    h2 i {
+      margin-right: 10px;
+    }
+    
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    ul li {
+      padding: 5px 0;
+    }
+    
+    .map-container {
+      margin-top: 20px;
+    }
+    
+    footer {
+      background-color: #2c3e50;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+
+    /* Mobile responsiveness */
+    @media (max-width: 768px) {
+      nav .menu {
+        flex-direction: column;
+      }
+
+      nav .menu li {
+        margin: 10px 0;
+      }
+
+      .school-image {
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .map-container iframe {
+        width: 100%;
+        height: 300px;
+      }
+
+      .section {
+        margin: 10px;
+        padding: 15px;
+      }
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Shree Bhavani Higher Primary School</h1>
+    <img src="school-image.jpg" alt="Shree Bhavani Higher Primary School" class="school-image">
+    <nav>
+      <ul class="menu">
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#school-hours">School Hours</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="about-us" class="section">
+    <h2><i class="fas fa-school"></i> About Us</h2>
+    <p>Shree Bhavani Higher Primary School, managed by Shree Bhavani Education Trust, is a Co-educational Private Unaided school located in Chikkanakana Hally, Mandya, Karnataka. Our school provides high-quality education in a rural setting.</p>
+  </section>
+
+  <section id="school-hours" class="section">
+    <h2><i class="fas fa-clock"></i> School Hours</h2>
+    <ul>
+      <li><strong>Monday - Friday:</strong> 9:30 AM – 4:00 PM</li>
+      <li><strong>Saturday:</strong> 8:30 AM – 12:30 PM</li>
+      <li><strong>Sunday:</strong> Closed</li>
+    </ul>
+  </section>
+
+  <section id="contact-us" class="section">
+    <h2><i class="fas fa-phone-alt"></i> Contact Us</h2>
+    <p><strong>Phone:</strong> 099011 48486</p>
+    <p><strong>Address:</strong> Chikkanakana Hally, Mandya, Karnataka 571415</p>
+    <div class="map-container">
+      <iframe
+        src="https://maps.google.com/maps?q=8PQX%2B73%20Doddankanahalli,%20Karnataka&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Shree Bhavani Higher Primary School</p>
+  </footer>
+</body>
+</html>
