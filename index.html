@@ -131,43 +131,18 @@
       font-size: 16px;
     }
 
-    .login-form {
-      max-width: 400px;
-      margin: 0 auto;
-      padding: 20px;
-      background-color: #333;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    }
-
-    .login-form label {
-      display: block;
-      margin-bottom: 10px;
-      font-size: 18px;
-    }
-
-    .login-form input {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 20px;
-      border: none;
-      border-radius: 5px;
-      background-color: #555;
-      color: white;
-    }
-
-    .login-form button {
-      width: 100%;
-      padding: 10px;
+    .review-button {
+      display: inline-block;
       background-color: #3498db;
-      border: none;
-      border-radius: 5px;
       color: white;
-      font-size: 18px;
-      cursor: pointer;
+      padding: 10px 15px;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 15px 0;
+      transition: background-color 0.3s ease;
     }
 
-    .login-form button:hover {
+    .review-button:hover {
       background-color: #2980b9;
     }
   </style>
@@ -181,7 +156,7 @@
         <li><a href="#about-us">About Us</a></li>
         <li><a href="#school-hours">School Hours</a></li>
         <li><a href="#contact-us">Contact Us</a></li>
-        <li><a href="#login">Login</a></li>
+        <li><a href="#reviews">Reviews</a></li>
       </ul>
     </nav>
   </header>
@@ -253,19 +228,10 @@
     </div>
   </section>
 
-  <section id="login" class="section">
-    <h2><i class="fas fa-user-lock"></i> Login</h2>
-    <div class="login-form">
-      <form action="dummy-login.html" method="get">
-        <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required>
-
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
-
-        <button type="submit">Login</button>
-      </form>
-    </div>
+  <section id="reviews" class="section">
+    <h2><i class="fas fa-star"></i> Reviews</h2>
+    <p>Check out our reviews on Google Maps to see what parents and students say about us:</p>
+    <a href="https://www.google.com/maps/place/Shree+Bhavani+Convent,+Chikkankanahalli/@12.3380617,76.747809,92m/data=!3m1!1e3!4m16!1m7!3m6!1s0x3baf73cca8446ffd:0xd9cc4b69fa9fcf4e!2s8PQX%2B73,+Doddankanahalli,+Karnataka!3b1!8m2!3d12.3381875!4d76.7476875!3m7!1s0x3baf734d7c401da1:0xd95ffa8c56133f0b!8m2!3d12.3381336!4d76.7477457!9m1!1b1!16s%2Fg%2F11sb33h9l2!5m1!1e4?hl=en-US&entry=ttu" target="_blank" class="review-button">View Google Reviews</a>
   </section>
 
   <footer>
