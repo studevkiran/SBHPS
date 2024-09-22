@@ -4,17 +4,17 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shree Bhavani Higher Primary School</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <style>
     body {
       font-family: 'Arial', sans-serif;
-      background-color: #0d0d0d;
-      color: #e0e0e0;
-      line-height: 1.6;
+      background-color: #1e1e2f;
+      color: #f0f4f8;
     }
 
     header {
       text-align: center;
-      background: linear-gradient(135deg, #1b2838, #4b79a1);
+      background-color: #23395d;
       padding: 20px;
       color: white;
     }
@@ -22,7 +22,6 @@
     .school-image {
       width: 100%;
       height: auto;
-      border-bottom: 5px solid #4b79a1;
     }
 
     nav .menu {
@@ -30,129 +29,137 @@
       padding: 0;
       display: flex;
       justify-content: center;
-      background-color: #4b79a1;
-      border-radius: 8px;
-      margin: 10px 0;
+      background-color: #1a2a41;
     }
 
     nav .menu li {
-      margin: 0 20px;
+      margin: 0 15px;
     }
 
     nav .menu li a {
-      color: #e0e0e0;
+      color: white;
       text-decoration: none;
       font-size: 18px;
-      padding: 10px 15px;
-      transition: background-color 0.3s ease;
+      padding: 10px 20px;
     }
 
     nav .menu li a:hover {
-      background-color: #3498db;
+      background-color: #3e5481;
       border-radius: 5px;
     }
 
     .section {
-      margin: 30px auto;
-      padding: 25px;
-      background-color: #222;
-      color: #ddd;
+      margin: 20px;
+      padding: 20px;
+      background-color: #2a2d3a;
       border-radius: 10px;
-      max-width: 1200px;
-      box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     h2 {
-      color: #3498db;
-      font-size: 28px;
-      margin-bottom: 15px;
+      color: #3e8acb;
+      font-size: 24px;
     }
 
     h2 i {
       margin-right: 10px;
     }
 
-    p {
-      margin-bottom: 15px;
-      font-size: 18px;
-      line-height: 1.8;
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 5px 0;
     }
 
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 15px;
     }
 
-    th, td {
-      border: 1px solid #4b79a1;
+    table, th, td {
+      border: 1px solid #ccc;
       padding: 10px;
       text-align: center;
     }
 
-    th {
-      background-color: #3498db;
-      color: white;
-    }
-
-    ul {
-      list-style: none;
-      padding: 0;
-      margin-left: 20px;
-    }
-
-    ul li {
-      padding: 8px 0;
-      font-size: 17px;
-    }
-
     .map-container {
-      margin-top: 25px;
-    }
-
-    iframe {
-      width: 100%;
-      height: 450px;
-      border: 0;
-      border-radius: 10px;
+      margin-top: 20px;
     }
 
     footer {
-      background-color: #1b2838;
+      background-color: #1a2a41;
       color: white;
       text-align: center;
-      padding: 15px;
-      margin-top: 30px;
-      border-top: 2px solid #4b79a1;
+      padding: 10px;
     }
 
-    footer p {
-      margin: 0;
-      font-size: 16px;
+    .copyable {
+      user-select: text;
     }
 
     .review-button {
-      display: inline-block;
-      background-color: #3498db;
+      background-color: #3e8acb;
       color: white;
       padding: 10px 15px;
       text-decoration: none;
       border-radius: 5px;
-      margin: 15px 0;
-      transition: background-color 0.3s ease;
+      display: inline-block;
+      margin-top: 10px;
     }
 
     .review-button:hover {
-      background-color: #2980b9;
+      background-color: #2a6bb1;
+    }
+
+    .quote-box {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+      background-color: #2a2d3a;
+      border-left: 5px solid #3e8acb;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    .quote-box p {
+      font-size: 18px;
+      margin: 0;
+      color: #e0e0e0;
+    }
+
+    .quote-box .president-photo {
+      width: 150px;
+      height: 150px;
+      background-color: #ccc;
+      border-radius: 50%;
+      background-size: cover;
+    }
+
+    .quote-box .president-info {
+      text-align: right;
+    }
+
+    .quote-box .president-info h3 {
+      margin: 10px 0 0 0;
+      color: #f0f4f8;
+    }
+
+    .quote-box .president-info p {
+      margin: 5px 0;
+      color: #ccc;
     }
   </style>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
 <body>
   <header>
-    <img src="school-image.jpg" alt="Shree Bhavani Higher Primary School" class="school-image">
+    <img src="school-image-placeholder.jpg" alt="Shree Bhavani Higher Primary School" class="school-image">
     <nav>
       <ul class="menu">
+        <li><a href="#home">Home</a></li>
         <li><a href="#about-us">About Us</a></li>
         <li><a href="#school-hours">School Hours</a></li>
         <li><a href="#contact-us">Contact Us</a></li>
@@ -161,77 +168,84 @@
     </nav>
   </header>
 
+  <section id="home" class="section">
+    <h2><i class="fas fa-home"></i> Home</h2>
+    <img src="https://via.placeholder.com/1200x500" alt="School Image" class="school-image">
+  </section>
+
   <section id="about-us" class="section">
     <h2><i class="fas fa-school"></i> About Us</h2>
     <p><strong>Shree Bhavani Higher Primary School</strong>, established in the year 2000 by <strong>Ramegowda C. C.</strong>, is managed by Shree Bhavani Education Trust. Recognized by the <strong>Government of Karnataka</strong>, the school was founded to provide high-quality education to children in the rural region of Chikkanakana Hally, Mandya, Karnataka, aiming to help them achieve their academic and personal goals.</p>
     <p>As a <strong>Co-educational Private Unaided</strong> institution, Shree Bhavani Higher Primary School offers a nurturing and inclusive environment where academic excellence and personal growth are paramount. The school is committed to supporting the overall development of its students through various activities and opportunities.</p>
-    <h3>Key Highlights:</h3>
-    <ul>
-      <li><strong>Recognized by the Government of Karnataka:</strong> The school is officially recognized for its quality education and adherence to state standards.</li>
-      <li><strong>Committed to Rural Education:</strong> Shree Bhavani is dedicated to improving the quality of education in rural areas, ensuring that every child, regardless of their background, has access to learning and growth.</li>
-      <li><strong>Extracurricular Activities:</strong> The school encourages participation in <strong>sports, cultural events, and science exhibitions</strong>, where students have excelled and brought several awards and recognition to the institution.</li>
-      <li><strong>Supportive Environment:</strong> The teachers are known for being <strong>friendly and supportive</strong>, providing students with guidance and encouragement to thrive.</li>
-      <li><strong>Transport Services:</strong> The school offers <strong>transportation facilities</strong>, making education accessible to students from nearby villages.</li>
-    </ul>
+  </section>
+
+  <section id="president-note" class="section">
+    <h2><i class="fas fa-user-tie"></i> President's Note</h2>
+    <div class="quote-box">
+      <div>
+        <p>"Education is the most powerful weapon which you can use to change the world." – Nelson Mandela</p>
+      </div>
+      <div class="president-info">
+        <div class="president-photo" style="background-image: url('https://via.placeholder.com/150');"></div>
+        <h3>Ramegowda C. C.</h3>
+        <p>President</p>
+      </div>
+    </div>
   </section>
 
   <section id="school-hours" class="section">
     <h2><i class="fas fa-clock"></i> School Hours</h2>
     <table>
-      <thead>
-        <tr>
-          <th>Day</th>
-          <th>Hours</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Monday</td>
-          <td>9:30 AM – 4:00 PM</td>
-        </tr>
-        <tr>
-          <td>Tuesday</td>
-          <td>9:30 AM – 4:00 PM</td>
-        </tr>
-        <tr>
-          <td>Wednesday</td>
-          <td>9:30 AM – 4:00 PM</td>
-        </tr>
-        <tr>
-          <td>Thursday</td>
-          <td>9:30 AM – 4:00 PM</td>
-        </tr>
-        <tr>
-          <td>Friday</td>
-          <td>9:30 AM – 4:00 PM</td>
-        </tr>
-        <tr>
-          <td>Saturday</td>
-          <td>8:30 AM – 12:30 PM</td>
-        </tr>
-        <tr>
-          <td>Sunday</td>
-          <td>Closed</td>
-        </tr>
-      </tbody>
+      <tr>
+        <th>Day</th>
+        <th>Timings</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>9:30 AM – 4:00 PM</td>
+      </tr>
+      <tr>
+        <td>Tuesday</td>
+        <td>9:30 AM – 4:00 PM</td>
+      </tr>
+      <tr>
+        <td>Wednesday</td>
+        <td>9:30 AM – 4:00 PM</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>9:30 AM – 4:00 PM</td>
+      </tr>
+      <tr>
+        <td>Friday</td>
+        <td>9:30 AM – 4:00 PM</td>
+      </tr>
+      <tr>
+        <td>Saturday</td>
+        <td>8:30 AM – 12:30 PM</td>
+      </tr>
+      <tr>
+        <td>Sunday</td>
+        <td>Closed</td>
+      </tr>
     </table>
   </section>
 
   <section id="contact-us" class="section">
     <h2><i class="fas fa-phone-alt"></i> Contact Us</h2>
-    <p><strong>Phone:</strong> 099011 48486</p>
-    <p><strong>Address:</strong> Shree Bhavani Higher Primary School, Chikkanakana Hally, Mandya, Karnataka 571415</p>
+    <p><strong>Phone:</strong> <span class="copyable">+91 99011 48486</span></p>
+    <p><strong>Address:</strong> <span class="copyable">Shree Bhavani Higher Primary School, Chikkanakana Hally, Mandya, Karnataka 571415</span></p>
     <div class="map-container">
       <iframe
-        src="https://maps.google.com/maps?q=8PQX%2B73%20Doddankanahalli,%20Karnataka&t=&z=13&ie=UTF8&iwloc=&output=embed"
-        allowfullscreen loading="lazy"></iframe>
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3894.1479706211357!2d76.74768757417476!3d12.338133580924449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3baf734d7c401da1%3A0xd95ffa8c56133f0b!2sShree%20Bhavani%20Higher%20Primary%20School!5e0!3m2!1sen!2sin!4v1695416111983!5m2!1sen!2sin&z=13&t=s&ie=UTF8&iwloc=&output=embed"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
   </section>
 
   <section id="reviews" class="section">
     <h2><i class="fas fa-star"></i> Reviews</h2>
-    <p>Check out our reviews on Google Maps to see what parents and students say about us:</p>
-    <a href="https://www.google.com/maps/place/Shree+Bhavani+Convent,+Chikkankanahalli/@12.3380617,76.747809,92m/data=!3m1!1e3!4m16!1m7!3m6!1s0x3baf73cca8446ffd:0xd9cc4b69fa9fcf4e!2s8PQX%2B73,+Doddankanahalli,+Karnataka!3b1!8m2!3d12.3381875!4d76.7476875!3m7!1s0x3baf734d7c401da1:0xd95ffa8c56133f0b!8m2!3d12.3381336!4d76.7477457!9m1!1b1!16s%2Fg%2F11sb33h9l2!5m1!1e4?hl=en-US&entry=ttu" target="_blank" class="review-button">View Google Reviews</a>
+    <p>Check out our reviews on Google Maps to see what parents and students say about us, and we invite you to share your own experience as well:</p>
+    <a href="https://www.google.com/maps/place/Shree+Bhavani+Convent,+Chikkankanahalli/@12.3380617,76.747809,92m/data=!3m1!1e3!4m16!1m7!3m6!1s0x3baf73cca8446ffd:0xd9cc4b69fa9fcf4e!2s8PQX%2B73,+Doddankanahalli,+Karnataka!3b1!8m2!3d12.3381875!4d76.7476875!3m7!1s0x3baf734d7c401da1:0xd95ffa8c56133f0b!8m2!3d12.3381336!4d76.7477457!9m1!1b1!16s%2Fg%2F11sb33h9l2!5m1!1e4?hl=en-US&entry=ttu" target="_blank" class="review-button"><i class="fas fa-external-link-alt"></i> See Reviews</a>
   </section>
 
   <footer>
