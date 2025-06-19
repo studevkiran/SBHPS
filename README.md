@@ -10,11 +10,11 @@ This is a simple school website built using HTML. I created it as my first real-
 - Responsive design (works on mobile and desktop)
 
 ## Live Demo
-You can view the website here: ((https://csemrkiran.github.io/SBHPS
+You can view the website here: https://csemrkiran.github.io/SBHPS
 
 Or, download the code and open `index.html` in your web browser.
 
-## My Learning Journey
+## My Learning Journey 
 I started learning HTML as a beginner using ChatGPT and GitHub Copilot. These tools helped me understand the basics, fix errors, and build my first project. This website is the result of my learning process.
 
 ## Credits
