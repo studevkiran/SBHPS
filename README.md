@@ -1,4 +1,4 @@
-# Real Life School Website
+# SBHPS Website
 
 This is a simple school website built using HTML. I created it as my first real-life project after learning HTML with the help of ChatGPT and GitHub Copilot. The website contains sections for About Us, Courses, Contact, and more.
 
@@ -10,7 +10,7 @@ This is a simple school website built using HTML. I created it as my first real-
 - Responsive design (works on mobile and desktop)
 
 ## Live Demo
-You can view the website here: [Your Live Website Link](https://yourwebsite.com)
+You can view the website here: ((https://csemrkiran.github.io/SBHPS
 
 Or, download the code and open `index.html` in your web browser.
 
