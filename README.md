@@ -1,11 +1,11 @@
 # SBHPS Website
 
-This is a simple school website built using HTML. I created it as my first real-life project after learning HTML with the help of ChatGPT and GitHub Copilot. The website contains sections for About Us, Courses, Contact, and more.
+This is a simple school website built using HTML. I created it as my first real-life project after learning HTML with the help of ChatGPT and GitHub Copilot. The website contains sections for About Us, school hours, Contact, and more.it's the first website which i hosted and gained some practical knowlegde about hosting the website.
 
 ## Features
 - Home page with school introduction
 - About Us section
-- Courses offered
+- school hours
 - Contact form
 - Responsive design (works on mobile and desktop)
 
