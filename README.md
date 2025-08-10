@@ -10,7 +10,7 @@ This is a simple school website built using HTML. I created it as my first real-
 - Responsive design (works on mobile and desktop)
 
 ## Live Demo
-You can view the website here: https://csemrkiran.github.io/SBHPS
+You can view the website here: https://studevkiran.github.io/SBHPS
 
 Or, download the code and open `index.html` in your web browser.
 
